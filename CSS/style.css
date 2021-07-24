@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+#header{
+    background-image: url("../Assets/backgrounds/h_img.jpg");
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#services{
+    background-image: url("../Assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18em;
+    color: white;
+}
+#contact{
+    background-image: url("../Assets/backgrounds/c_image.jpg");
+    height: 20em;
+    background-size: cover;
+}
+#design-hide {
+    display: none;
+}
+#development-hide{
+    display: none;
+}
+#product-hide{
+    display: none;
+}

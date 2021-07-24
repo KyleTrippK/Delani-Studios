@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Delani Studios</title>
 </head>
-<body>
+<body class="">
     <section>
-        <div>
-            <p>WELCOME TO DELANI STUDIO</p>
+        <div id="header" class="pt-5 header">
+            <img src="./Assets/logo/logo.png" alt="logo" class="mb-4">
+            <p>WELCOME </br>TO DELANI STUDIO</p>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+            <img src="./Assets/mouse_click.png" alt="mouse-click" class="pt-5">
         </div>
     </section>
-    <section>
+    <section class="text-center p-4">
         <h3>ABOUT US</h3>
         <p>When you work with us, you are part of a team of committed collaborators. All aspecs of our software
             development process are intergrated, interactive and agile.
@@ -23,46 +29,113 @@
         <p>Then we help translate them into effective and elegant solutions</p>
     </section>
     <section>
-        <p>SERVICES</p>
-        <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
-        <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
-        <p>based on your requirements, we can provide a complete offering or just the peces you need</p>
+        <div id="services" class="text-center pt-5">
+            <p>SERVICES</p>
+            <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
+            <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
+            <p>based on your requirements, we can provide a complete offering or just the peces you need</p>
+        </div>
+    </section>
+
+    <!-- What we do section -->
+    <section class="py-3 contain">
+        <h3 class="text-center">WHAT WE DO</h3>
+        <div class="justify-content-centre row" id="what-we-do">
+            <div class="col-sm-3" id="design">
+                <img src="./Assets/services_icons/design_icon.png" alt="design icons" class="">
+                <p>DESIGN</p>
+                <div id="design-hide">
+                    <p class="">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                    <p class="">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+            </div>
+            <div class="col-sm-3" id="development">
+                <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon" class="">
+                <P>DEVELOPMENT</P>
+                <div id="development-hide">
+                    <p class="text-center">All engineers are fluent in the last enterprise, mobile and web development technologies.</p>
+                    <p class="text-center">They collaborate with your team to write, and improve code on a daily basis, using such as test-driven development and pair programming.</p>
+                </div>
+            </div>
+            <div class="col-sm-3" id="product">
+                <img src="./Assets/services_icons/product_icon.png" alt="product_icon" class="">
+                <P>PRODUCT MANAGEMENT</P>
+                <div id="product-hide">
+                    <p class="text-center">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                    <p class="text-center">Ths iterative process allows for changes as business requirements evolve.</p>
+                </div>
+            </div>   
+                
+        </div>
+    </section>
+
+
+    <!-- Portfoio section -->
+    <section class="mb-3">
+        <h3 class="text-center mt-5">PORTFOLIO</h3>
+        <div class="container">
+            <div class="row justify-content-around  pb-3 ">
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="work1">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work2.jpg" alt="work2">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work3.jpg" alt="work3">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work4.jpg" alt="work4">
+                </div>
+            </div>
+    
+
+        
+            <div class="justify-content-around row">
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work6.jpg" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work5.jpg" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work7.jpg" alt="">
+                </div>
+                <div class="col-sm-3">
+                    <img class="img-fluid" src="./Assets/portfolio/work8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact us section -->
+    <section>
+        <div id="contact">
+            <h4 class="text-center pt-4 text-light">CONTACT US</h4>
+            <input type="text" placeholder="Name..">
+            <input type="text" placeholder="Email..">
+            <input type="text" placeholder="Your message here...">
+        </div>
+    </section>
+
+    <!--Social icons section-->
+    <section class="">
+        <div class="container align-items-center" id="icons">
+            <a href="x" class="href"><img src="./Assets/social_icons/twitter.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/you_tube.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/facebook.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/g_plus.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/skype.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/stumble_upon.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/behance.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/pinterest.png" alt=""></a>
+            <a href="x" class="href"><img src="./Assets/social_icons/flickr.png" alt=""></a>
+        </div>
     </section>
     <section>
-        <h3>WHAT WE DO</h3>
-        <img src="./Assets/services_icons/design_icon.png" alt="design icons">
-        <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon">
-        <img src="./Assets/services_icons/product_icon.png" alt="product_icon">
-    </section>
-    <section>
-        <h3>PORTFOLIO</h3>
-        <img src="./Assets/portfolio/work1.jpg" alt="">
-        <img src="./Assets/portfolio/work2.jpg" alt="">
-        <img src="./Assets/portfolio/work3.jpg" alt="">
-        <img src="./Assets/portfolio/work4.jpg" alt="">
-        <img src="./Assets/portfolio/work5.jpg" alt="">
-        <img src="./Assets/portfolio/work6.jpg" alt="">
-        <img src="./Assets/portfolio/work7.jpg" alt="">
-        <img src="./Assets/portfolio/work8.jpg" alt="">
-    </section>
-    <section>
-        <h4>CONTACT US</h4>
-        <input type="text" placeholder="Name..">
-        <input type="text" placeholder="Email..">
-        <input type="text" placeholder="Your message here...">
-    </section>
-    <section>
-        <a href="./Assets/social_icons/twitter.png" class="href"></a>
-        <a href="./Assets/social_icons/" class="href"></a>
-        <a href="./Assets/social_icons/facebook.png" class="href"></a>
-        <a href="./Assets/social_icons/g_plus.png" class="href"></a>
-        <a href="./Assets/social_icons/skype.png" class="href"></a>
-        <a href="./Assets/social_icons/behance.png" class="href"></a>
-        <a href="./Assets/social_icons/behance.png" class="href"></a>
-        <a href="./Assets/social_icons/pinterest.png" class="href"></a>
-        <a href="./Assets/social_icons/" class="href"></a>
-        <p>DELANI STUDIO</p>
-        <p>2019</p>
+        <p class="text-center">DELANI STUDIO</p>
+        <p class="text-center">2019</p>
     </section>
 </body>
+<script src="./JS/index.js"></script>
 </html>
