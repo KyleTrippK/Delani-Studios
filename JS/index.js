@@ -21,4 +21,5 @@ function verification(){
         alert("Please fill out your email")
         return false
     }
+    alert("Welcome "+ nameInput);
 }
