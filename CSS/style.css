@@ -34,7 +34,7 @@
 }
 .bailey p{
     font-size: 50px;
-    border: 20px solid black;
+    border: 20px solid white;
 }
 .baileytext{
     font-size: 18px;
@@ -49,4 +49,6 @@
 .submit{
     border-radius: 5px;
     padding: 5px;
+    color: white;
+    font-weight: bold;
 }

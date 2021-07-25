@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     $("#product").click(function(){$("#product-hide").toggle(500)});
     $("#product").click(function(){$("#hidden3").toggle(100)})
-    
+
     $("#contact-us").addClass("text-center");
     $("#icons").addClass("text-center mt-3");
     $("#contains").addClass("text-center");
@@ -89,7 +89,7 @@ function verification(){
         alert("Please fill out your email")
         return false
     }
-    alert("Welcome "+ nameInput);
+    alert("Thank you"+ nameInput + " your message has been received");
 }
 
 
