@@ -3,12 +3,19 @@ $(document).ready(function(){
     // $("#what-we-do").addClass('justify-content-center ml-5');
     $("#design").click(function(){$("#design-hide").toggle(500)});
     $("#design").click(function(){$("#hidden").toggle(100)});
+
     $("#development").click(function(){$("#development-hide").toggle(500)});
+    $("#development").click(function(){$("#hidden2").toggle(100)});
+
     $("#product").click(function(){$("#product-hide").toggle(500)});
+    $("#product").click(function(){$("#hidden3").toggle(100)})
+    
     $("#contact-us").addClass("text-center");
     $("#icons").addClass("text-center mt-3");
     $("#contains").addClass("text-center");
     $(".submit-div").addClass("text-center");
+
+
     //hover on portfolio 1
     $("#bailey1, #baileyword1").hover(function(){
         $("#baileyword1").css("display", "block").fadeIn();
@@ -16,7 +23,7 @@ $(document).ready(function(){
     function(){
         $("#baileyword1").css("display", "block").fadeOut();
     });
-// ...alert.
+
     $("#bailey2, #baileyword2").hover(function(){
         $("#baileyword2").css("display", "block").fadeIn();
     },
@@ -24,15 +31,13 @@ $(document).ready(function(){
         $("#baileyword2").css("display", "block").fadeOut();
     });
 
-
-    //;;;';L.;J
     $("#bailey3, #baileyword3").hover(function(){
         $("#baileyword3").css("display", "block").fadeIn();
     },
     function(){
         $("#baileyword3").css("display", "block").fadeOut();
     });
-    //9
+    
     $("#bailey4, #baileyword4").hover(function(){
         $("#baileyword4").css("display", "block").fadeIn();
     },
@@ -41,6 +46,7 @@ $(document).ready(function(){
     });
 
 
+    //hover on portfolio two
     $("#bailey5, #baileyword5").hover(function(){
         $("#baileyword5").css("display", "block").fadeIn();
     },
