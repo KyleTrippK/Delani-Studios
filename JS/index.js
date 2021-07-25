@@ -7,6 +7,7 @@ $(document).ready(function(){
     $("#contact-us").addClass("text-center");
     $("#icons").addClass("text-center mt-3");
     $("#contains").addClass("text-center");
+    $(".submit").addClass("text-center");
 })
 
 // Form verification
