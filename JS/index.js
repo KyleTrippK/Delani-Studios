@@ -82,7 +82,7 @@ function verification(){
     var nameInput = document.getElementById("name-input").value;
     var mailInput = document.getElementById("mail-input").value;
     if(nameInput==""){
-        alert("Please fill out the Name input");
+        alert("Please fill out your name");
         return false
     }
     if(mailInput==""){
