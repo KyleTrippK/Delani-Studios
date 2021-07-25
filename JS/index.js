@@ -10,13 +10,65 @@ $(document).ready(function(){
     $("#contains").addClass("text-center");
     $(".submit-div").addClass("text-center");
     //hover on portfolio 1
-    $("#bailey1, baileyword1").hover(function(){
+    $("#bailey1, #baileyword1").hover(function(){
         $("#baileyword1").css("display", "block").fadeIn();
     },
     function(){
-        $("#baileyword1").fadeOut();
-    })
-    $("#bailey1")
+        $("#baileyword1").css("display", "block").fadeOut();
+    });
+// ...alert.
+    $("#bailey2, #baileyword2").hover(function(){
+        $("#baileyword2").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword2").css("display", "block").fadeOut();
+    });
+
+
+    //;;;';L.;J
+    $("#bailey3, #baileyword3").hover(function(){
+        $("#baileyword3").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword3").css("display", "block").fadeOut();
+    });
+    //9
+    $("#bailey4, #baileyword4").hover(function(){
+        $("#baileyword4").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword4").css("display", "block").fadeOut();
+    });
+
+
+    $("#bailey5, #baileyword5").hover(function(){
+        $("#baileyword5").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword5").css("display", "block").fadeOut();
+    });
+
+    $("#bailey6, #baileyword6").hover(function(){
+        $("#baileyword6").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword6").css("display", "block").fadeOut();
+    });
+
+    $("#bailey7, #baileyword7").hover(function(){
+        $("#baileyword7").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword7").css("display", "block").fadeOut();
+    });
+
+    $("#bailey8, #baileyword8").hover(function(){
+        $("#baileyword8").css("display", "block").fadeIn();
+    },
+    function(){
+        $("#baileyword8").css("display", "block").fadeOut();
+    });
+    
 })
 
 // Form verification
