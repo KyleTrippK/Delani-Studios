@@ -14,13 +14,13 @@
     <section>
         <div id="header" class="pt-5 header">
             <img src="./Assets/logo/logo.png" alt="logo" class="mb-4">
-            <p>WELCOME </br>TO DELANI STUDIO</p>
+            <p class="display-4">WELCOME </br>TO DELANI STUDIO</p>
             <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-            <img src="./Assets/mouse_click.png" alt="mouse-click" class="pt-5">
+            <img src="./Assets/mouse_click.png" alt="mouse-click" class="py-5">
         </div>
     </section>
     <section class="text-center p-4">
-        <h3>ABOUT US</h3>
+        <h3 class="display-5">ABOUT US</h3>
         <p>When you work with us, you are part of a team of committed collaborators. All aspecs of our software
             development process are intergrated, interactive and agile.
         </p>
@@ -30,10 +30,10 @@
     </section>
     <section>
         <div id="services" class="text-center pt-5">
-            <p>SERVICES</p>
-            <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
-            <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
-            <p>based on your requirements, we can provide a complete offering or just the pieces you need</p>
+            <p class="display-6">SERVICES</p>
+            <p class="services-text font-weight-light">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
+            <p class="services-text font-weight-light">The outcome of this scoping session is a proposal or high-level statement of work.</p>
+            <p class="services-text font-weight-light">based on your requirements, we can provide a complete offering or just the pieces you need</p>
         </div>
     </section>
 
@@ -42,7 +42,7 @@
         <h3 class="text-center mb-3">WHAT WE DO</h3>
         <div class="justify-content-center row" id="what-we-do">
             <div class="col-sm-3" id="design">
-                <img src="./Assets/services_icons/design_icon.png" alt="design icons" class="">
+                <img src="./Assets/services_icons/design_icon.png" alt="design icons" class="" id="hidden">
                 <p>DESIGN</p>
                 <div id="design-hide">
                     <p class="">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-sm-3" id="development">
-                <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon" id="devs">
+                <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon" id="hidden2">
                 <P>DEVELOPMENT</P>
                 <div id="development-hide">
                     <p class="text-center">All engineers are fluent in the last enterprise, mobile and web development technologies.</p>
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="col-sm-3" id="product">
-                <img src="./Assets/services_icons/product_icon.png" alt="product_icon" class="">
+                <img src="./Assets/services_icons/product_icon.png" alt="product_icon" id="hidden3">
                 <P>PRODUCT MANAGEMENT</P>
                 <div id="product-hide">
                     <p class="text-center">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
@@ -74,11 +74,13 @@
     <section class="mb-3">
         <h3 class="text-center mt-5">PORTFOLIO</h3>
         <div class="container">
+
+            
             <!-- <div class="row justify-content-around  pb-3 "> -->
             <div class="row pb-3">
                 <div class="col-sm-3">
-                    <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="work1">
-                    <div class="bailey text-light">
+                    <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="work1" id="bailey1">
+                    <div class="bailey text-light" id="baileyword1">
                         <p>Bailey Wonger</p>
                     </div>
                 </div>
@@ -106,9 +108,9 @@
         
             <!-- <div class="justify-content-around row"> -->
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3" id="">
                     <img class="img-fluid" src="./Assets/portfolio/work6.jpg" alt="">
-                    <div class="bailey text-light">
+                    <div class="bailey text-light" id="">
                         <p>Bailey Wonger</p>
                     </div>
                 </div>
@@ -144,7 +146,7 @@
                 </div> -->
 
 
-                <form class="container">
+                <form class="container" id="c">
                     <div class="row">
                       <div class="col">
                         <input type="text" class="form-control bg-transparent" id="name-input" placeholder="Name...">
@@ -156,13 +158,12 @@
                 </form>
 
                   <div class="form-group container">
-                    <textarea class="form-control bg-transparent mt-4" placeholder="Your message here..." rows="5"></textarea>
+                    <textarea class="form-control bg-transparent mt-4" placeholder="Your message here..." rows="6"></textarea>
                   </div>
 
 
-                  <div class="submit">
-                
-                   <input type="submit" value="Submit" onclick="verification()">
+                  <div class="submit-div">
+                   <input type="submit" value="Submit" class="bg-primary submit" onclick="verification()">
                 </div>
             </div>
         </div>
