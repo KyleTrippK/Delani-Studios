@@ -1,9 +1,6 @@
-*{
-    box-sizing: border-box;
-}
 #header{
     background-image: url("../Assets/backgrounds/h_img.jpg");
-    height: 25em;
+    height: 30%;
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -33,14 +33,14 @@
             <p>SERVICES</p>
             <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
             <p>The outcome of this scoping session is a proposal or high-level statement of work.</p>
-            <p>based on your requirements, we can provide a complete offering or just the peces you need</p>
+            <p>based on your requirements, we can provide a complete offering or just the pieces you need</p>
         </div>
     </section>
 
     <!-- What we do section -->
-    <section class="py-3 contain">
-        <h3 class="text-center">WHAT WE DO</h3>
-        <div class="justify-content-centre row" id="what-we-do">
+    <section class="pt-4 contain" id="contains">
+        <h3 class="text-center mb-3">WHAT WE DO</h3>
+        <div class="justify-content-center row" id="what-we-do">
             <div class="col-sm-3" id="design">
                 <img src="./Assets/services_icons/design_icon.png" alt="design icons" class="">
                 <p>DESIGN</p>
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-sm-3" id="development">
-                <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon" class="">
+                <img src="./Assets/services_icons/dev_icon.png" alt="dev_icon" id="devs">
                 <P>DEVELOPMENT</P>
                 <div id="development-hide">
                     <p class="text-center">All engineers are fluent in the last enterprise, mobile and web development technologies.</p>
@@ -70,11 +70,12 @@
     </section>
 
 
-    <!-- Portfoio section -->
+    <!-- Portfolio section -->
     <section class="mb-3">
         <h3 class="text-center mt-5">PORTFOLIO</h3>
         <div class="container">
-            <div class="row justify-content-around  pb-3 ">
+            <!-- <div class="row justify-content-around  pb-3 "> -->
+            <div class="row pb-3">
                 <div class="col-sm-3">
                     <img class="img-fluid" src="./Assets/portfolio/work1.jpg" alt="work1">
                 </div>
@@ -91,7 +92,8 @@
     
 
         
-            <div class="justify-content-around row">
+            <!-- <div class="justify-content-around row"> -->
+            <div class="row">
                 <div class="col-sm-3">
                     <img class="img-fluid" src="./Assets/portfolio/work6.jpg" alt="">
                 </div>
@@ -112,9 +114,18 @@
     <section>
         <div id="contact">
             <h4 class="text-center pt-4 text-light">CONTACT US</h4>
-            <input type="text" placeholder="Name..">
-            <input type="text" placeholder="Email..">
-            <input type="text" placeholder="Your message here...">
+            <div id="contact-us">
+                <div id="" class="">
+                    <label>
+                    <input type="text" placeholder="Name.." class="bg-transparent form-control" id="name-input">
+                    <input type="text" placeholder="Email.." class="bg-transparent form-control" id="mail-input">
+                    </label>
+                </div>
+                <div>
+                   <label><input type="text" placeholder="Your message here..." class="bg-transparent text-area form-control"></label>
+                </div>
+                <input type="submit" value="Sumbit" onclick="verification()">
+            </div>
         </div>
     </section>
 
