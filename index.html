@@ -114,17 +114,33 @@
     <section>
         <div id="contact">
             <h4 class="text-center pt-4 text-light">CONTACT US</h4>
-            <div id="contact-us">
+            <!-- <div id="contact-us" class="form-group row">
                 <div id="" class="">
-                    <label>
-                    <input type="text" placeholder="Name.." class="bg-transparent form-control" id="name-input">
-                    <input type="text" placeholder="Email.." class="bg-transparent form-control" id="mail-input">
-                    </label>
+                        <input type="text" placeholder="Name.." class="bg-transparent form-control col-xs-4" id="name-input">
+                        <input type="text" placeholder="Email.." class="bg-transparent form-control col-xs-4" id="mail-input">
+                </div> -->
+
+
+                <form class="container">
+                    <div class="row">
+                      <div class="col">
+                        <input type="text" class="form-control bg-transparent" id="name-input" placeholder="Name...">
+                      </div>
+                      <div class="col">
+                        <input type="text" class="form-control bg-transparent" id="mail-input" placeholder="Email...">
+                      </div>
+                    </div>
+                </form>
+
+                  <div class="form-group container">
+                    <textarea class="form-control bg-transparent mt-4" placeholder="Your message here..." rows="5"></textarea>
+                  </div>
+
+
+                  <div class="submit">
+                
+                   <input type="submit" value="Submit" onclick="verification()">
                 </div>
-                <div>
-                   <label><input type="text" placeholder="Your message here..." class="bg-transparent text-area form-control"></label>
-                </div>
-                <input type="submit" value="Sumbit" onclick="verification()">
             </div>
         </div>
     </section>
