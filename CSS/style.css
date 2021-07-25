@@ -13,7 +13,7 @@
 }
 #contact{
     background-image: url("../Assets/backgrounds/c_image.jpg");
-    height: 20em;
+    height: 23em;
     background-size: cover;
 }
 #design-hide {
@@ -30,5 +30,23 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* display: none; */
+    display: none;
+}
+.bailey p{
+    font-size: 50px;
+    border: 20px solid black;
+}
+.baileytext{
+    font-size: 18px;
+    border: 5px, solid black;
+}
+.services-text{
+    font-size: 17px;
+}
+#name-input::placeholder, #mail-input::placeholder, #message::placeholder{
+    color: white;
+}
+.submit{
+    border-radius: 5px;
+    padding: 5px;
 }
